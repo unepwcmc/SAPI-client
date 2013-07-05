@@ -8,4 +8,11 @@ h2{
 	font-weight: 300;
 }
 
+body{
+	font-family: 'Armata', sans-serif;
+}
+
+.panel{
+	font-size: 12px;
+}
 

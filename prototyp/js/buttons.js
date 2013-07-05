@@ -1,5 +1,6 @@
-var buttons = document.getElementsByClassName("panel");
+var buttons_classes = document.getElementsByClassName("panel");
 var button_appendix = document.getElementsByClassName("switch switch-four candy yellow");
+var buttons_section = document.querySelectorAll('p.title');
 var appendices = button_appendix[0].childNodes;
 var classes_chosen = new Array();
 var appendix_chosen = "I";
@@ -33,14 +34,28 @@ function appendix_click(e){
 	console.log(appendix_chosen);
 }
 
+//Changing the section => unset the classes chosen/appendix
+//unset the style of chosen classes
+function section_click(e){
+	classes_chosen = [];
+	for(var l=0; l<buttons_classes.length; l++){
+		buttons_classes[l].setAttribute('style', "" );
+		buttons_classes[l].setAttribute('data-flag', "");
+	}
+}
+
 
 //adding listeners to the objects "clickable"
-for(var l=0; l<buttons.length; l++){
-  buttons[l].addEventListener("click", button_click, false);
+for(var l=0; l<buttons_classes.length; l++){
+  buttons_classes[l].addEventListener("click", button_click, false);
 }
 
 for(var l=0; l<appendices.length; l++){
 	if (appendices[l].tagName == "LABEL"){
 		appendices[l].addEventListener("click", appendix_click, false);
 	}
+}
+
+for(var l=0; l<buttons_section.length; l++){
+	buttons_section[l].addEventListener("click", section_click, false);
 }

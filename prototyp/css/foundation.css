@@ -1497,7 +1497,7 @@ form .row textarea.columns {
 /* Label Styles */
 label {
   font-size: 0.875em;
-  color: #4d4d4d;
+  color: rgb(3, 3, 3);
   cursor: pointer;
   display: block;
   font-weight: 500;

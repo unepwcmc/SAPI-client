@@ -241,12 +241,12 @@ https://github.com/ghinda/css-toggle-switch
 	 */
 	 
 	.candy {
-		background-color: #2d3035;
+		background-color: rgb(231, 232, 233);
 		
 		color: #fff;
 		font-weight: bold;
 		text-align: center;
-		text-shadow: 1px 1px 1px #191b1e;
+		text-shadow: 1px 1px 1px rgb(248, 248, 248);
 			
 		border-radius: 3px;	
 		
@@ -256,10 +256,13 @@ https://github.com/ghinda/css-toggle-switch
 	.candy input:checked + label {
 		color: #333;
 		text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-	}
+	
+		font-weight: bold;
+		font-size: 17px;
+}
 		
 	.candy .slide-button {
-		border: 1px solid #333;
+		/*border: 1px solid red;*/
 
 		background-color: #70c66b;
 		
@@ -289,7 +292,7 @@ https://github.com/ghinda/css-toggle-switch
 	}
 
 	.candy.yellow .slide-button {
-		background-color: #f5e560;
+		background-color: rgb(255, 255, 255);
 	}
 
 	/* Android Theme

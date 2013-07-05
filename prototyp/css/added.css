@@ -3,8 +3,9 @@
 }
 
 h2{
-	font-family: Sansumi-UltraLight; src: url('Sansumi-UltraLight.ttf');
+	font-family: 'Quicksand', sans-serif;
 	font-size: 60px;
+	font-weight: 300;
 }
 
 

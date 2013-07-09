@@ -12,7 +12,32 @@ body{
 	font-family: 'Armata', sans-serif;
 }
 
+.label{
+	font-size: 2em;
+	color: inherit;
+	background-color: inherit;
+}
+
 .panel{
 	font-size: 12px;
 }
+
+.animal_descr li{
+	padding-top: 15px;
+	list-style-type: none;
+}
+
+.left{
+	font-weight: bold;
+}
+.animal_imgs{
+	text-align: center;
+	margin: 0 auto 15px 20px;
+}
+
+fieldset{
+  border:1px solid "rgba(0,0,0,.05)";
+
+}
+
 

@@ -10,9 +10,16 @@
   
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/demo.css" />
+  <link rel="stylesheet" href="css/added.css" />
   <link rel="stylesheet" href="css/img.css" />
   <link rel="stylesheet" href="toggle-switch.css">	
   <link rel="stylesheet" href="lib/prism/prism.css">
+  <!-- fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	 <!-- Chart.js -->
+  <script src="Chart.js/Chart.js"></script>
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
@@ -26,9 +33,9 @@
 <body>
 	<div class="row">
 			<div class="large-12 columns">
-				<h2>Species+</h2>
+				<h2>SPECIES+</h2>
 			</div>
-		</div>
+	</div>
 
 
 	<div class="row">
@@ -38,10 +45,12 @@
 	</div>
 
 	<div class="row">
+
+		<!-- ROW table + pictures + chart -->
 		<div class="row">
-			<div class="large-8 columns">
+			<div class="large-7 columns">
 				<div class="large-6 columns">
-					<ul>
+					<ul class="animal_descr left">
 						<li>Class:</li>
 						<li>Order:</li>
 						<li>Family:</li>
@@ -51,11 +60,12 @@
 						<li>Author &amp; Year:</li>
 						<li>CITES appendix</li>
 						<li>English names:</li>
+					</br>
 						<li>Polish names:</li>
 					</ul>
 				</div>
 				<div class="large-6 columns">
-					<ul>
+					<ul class="animal_descr">
 						<li>Aves</li>
 						<li>Falconiformes</li>
 						<li>Accipitridae</li>
@@ -70,10 +80,14 @@
 				</div>
 			</div>
 
-			<div class="large-4 columns">
+			<div class="large-5 columns">
 				<div class="row">
-					<div class="large-12 columns">
+					<div class="large-12 columns animal_imgs">
 						<div class="row">
+							<div class="large-6 columns img_thumb">
+						  		<img src="img/aegypius1.jpg">
+						  	</div>
+						
 							<div class="large-6 columns img_thumb">
 						  		<img src="img/aegypius1.jpg">
 						  	</div>
@@ -82,27 +96,24 @@
 							<div class="large-6 columns img_thumb">
 						  		<img src="img/aegypius1.jpg">
 						  	</div>
-						</div>
-						<div class="row">
-							<div class="large-6 columns img_thumb">
-						  		<img src="img/aegypius1.jpg">
-						  	</div>
-						</div>
-						<div class="row">
+						
 							<div class="large-6 columns img_thumb">
 						  		<img src="img/aegypius1.jpg">
 						  	</div>
 						</div>
 					</div>
 				</div>
-			</div>
-					<!-- <div class="row">
+			
+					<div class="row">
 						<div class="large-12 columns">
-							wykres
+							<fieldset><legend>Population in years</legend>
+								<canvas id="chart_population" width="400" height="250"></canvas>
+							</fieldset>
 						</div>	
-					</div> -->
-				</div>
+					</div>
 			</div>
+		</div>
+	</div>
 
 
 		</div>
@@ -190,7 +201,7 @@
 
 			</div>
 		</div>
- -->
+
 	
 
 
@@ -240,5 +251,8 @@
   <script>
     $(document).foundation();
   </script>
+
+  <script src="js/charts_additional.js"></script>
+
 </body>
 </html>

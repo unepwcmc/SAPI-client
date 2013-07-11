@@ -5,7 +5,7 @@ var appendices = button_appendix[0].childNodes;
 var classes_chosen = new Array();
 var appendix_chosen = "I";
 //var appendices_chosen = new Array();
-
+load_the_content(classes_chosen);
 
 //Changing the appearance of the clicked/unclicked
 //and addind/removing the name of the class to the list of classes to show
@@ -16,13 +16,15 @@ function button_click(e){
 		this.setAttribute('style', "" );
 		this.setAttribute('data-flag', "");
 		classes_chosen.splice( classes_chosen.indexOf( name ), 1 );
-		console.log(classes_chosen);
+		load_the_content(classes_chosen);
+		// console.log(classes_chosen);
 	}
 	else{
 		this.setAttribute('style', "background-color:#CCFFCC" );
 		this.setAttribute('data-flag', "clicked");
 		classes_chosen.push(name);
-		console.log(classes_chosen);
+		load_the_content(classes_chosen);
+		// console.log(classes_chosen);
 	}
 
 }
@@ -59,3 +61,27 @@ for(var l=0; l<appendices.length; l++){
 for(var l=0; l<buttons_section.length; l++){
 	buttons_section[l].addEventListener("click", section_click, false);
 }
+
+//load a description click-based
+function load_the_content(e){
+	var count = document.getElementsByClassName("chosen_count");
+	var species = document.getElementsByClassName("chosen_group");
+	if($.inArray("Animalia",e) > -1 ){
+		if($.inArray("Plantae",e) > -1){
+			count[0].innerHTML = " 141 ";
+			species[0].innerHTML = " Animalia and Plantae ";
+		}
+		else{
+			count[0].innerHTML = " 86 ";
+			species[0].innerHTML = " Animalia ";
+		}
+	}
+	else if($.inArray("Plantae",e) > -1){
+			count[0].innerHTML = " 55 ";
+			species[0].innerHTML = " Plantae ";
+	}
+	else{
+		count[0].innerHTML = " 141 ";
+		species[0].innerHTML = "";
+	}
+};

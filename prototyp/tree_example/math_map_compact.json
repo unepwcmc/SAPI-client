@@ -9,16 +9,28 @@
                     "name": "Chordata",
                     "children": [
                         {
-                            "name": "Products, Sums, Linear Combinations, and Applications"
+                            "name": "Mammalia"
                         },
                         {
-                            "name": "Basic Inverse Trigonometric Functions"
+                            "name": "Aves"
                         },
                         {
-                            "name": "Graphing Inverse Trigonometric Functions"
+                            "name": "Reptilia"
                         },
                         {
-                            "name": "Inverse Trigonometric Properties"
+                            "name": "Amphibia"
+                        },
+                        {
+                            "name": "Actinopterygii"
+                        },
+                        {
+                            "name": "Insecta"
+                        },
+                        {
+                            "name": "Hirudinoidea"
+                        },
+                        {
+                            "name": "Gastropoda"
                         }
                     ]
                 },
@@ -33,6 +45,12 @@
                             "name": "Vectors"
                         }
                     ]
+                },
+                {
+                    "name": "Arthropoda",
+                },
+                {
+                    "name": "",
                 }
             ]
         },

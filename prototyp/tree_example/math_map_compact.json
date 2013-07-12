@@ -24,13 +24,7 @@
                             "name": "Actinopterygii"
                         },
                         {
-                            "name": "Insecta"
-                        },
-                        {
-                            "name": "Hirudinoidea"
-                        },
-                        {
-                            "name": "Gastropoda"
+                            "name": "Gastropoda???"
                         }
                     ]
                 },
@@ -39,18 +33,18 @@
                     "children": [
                         
                         {
-                            "name": "General Solutions of Triangles"
-                        },
-                        {
-                            "name": "Vectors"
+                            "name": "Hirudinoidea"
                         }
+                        
                     ]
                 },
                 {
                     "name": "Arthropoda",
-                },
-                {
-                    "name": "",
+                    "children": [
+                        {
+                            "name": "Arthropoda"
+                        }
+                    ]
                 }
             ]
         },

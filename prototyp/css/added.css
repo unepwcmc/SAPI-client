@@ -45,12 +45,18 @@ fieldset{
 }
 
 
-.authors{
+.authors1{
 	margin-left: 30px;
 }
-.authors div{
+.authors1 div{
 	padding: 8px;
 }
-.authors div a{
+.authors1 div a{
 	padding-left: 20px;
+}
+
+.authors2_name ul{
+	list-style-type: none;
+	margin-left: 30px;
+	color: #2795b6;
 }

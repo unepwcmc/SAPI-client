@@ -26,7 +26,6 @@ body{
 	padding-top: 15px;
 	list-style-type: none;
 }
-
 .left{
 	font-weight: bold;
 }
@@ -46,3 +45,12 @@ fieldset{
 }
 
 
+.authors{
+	margin-left: 30px;
+}
+.authors div{
+	padding: 8px;
+}
+.authors div a{
+	padding-left: 20px;
+}

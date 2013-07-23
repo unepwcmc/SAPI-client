@@ -1,5 +1,5 @@
 var buttons_classes = document.getElementsByClassName("panel");
-var button_appendix = document.getElementsByClassName("switch switch-four candy yellow");
+var button_appendix = document.getElementsByClassName("switch_species switch_species-four candy yellow");
 var buttons_section = document.querySelectorAll('p.title');
 var appendices = button_appendix[0].childNodes;
 var classes_chosen = new Array();

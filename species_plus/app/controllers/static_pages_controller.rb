@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
 
-	@@data = File.read("app/assets/javascripts/math_map_compact.json")
+	@@data = File.read("app/assets/javascripts/temp.json")
 
 	def math_map_compact
 	  render :json => @@data

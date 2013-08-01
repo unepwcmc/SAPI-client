@@ -1,4 +1,4 @@
-          var margin = {top: 20, right: 120, bottom: 20, left: 120},
+          var margin = {top: 20, right: 220, bottom: 20, left: 120},
               width = 960 - margin.right - margin.left,
               height = 800 - margin.top - margin.bottom;
 
@@ -44,7 +44,7 @@
                 links = tree.links(nodes);
 
             // Normalize for fixed-depth.
-            nodes.forEach(function(d) { d.y = d.depth * 180; });
+            nodes.forEach(function(d) { d.y = d.depth * 90; });
 
             // Update the nodes…
             var node = svg.selectAll("g.node")
@@ -62,7 +62,7 @@
 
             nodeEnter.append("text")
                 .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
-                .attr("dy", ".35em")
+                .attr("dy", "-0.5em")
                 .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
                 .text(function(d) { return d.name; })
                 .style("fill-opacity", 1e-6);

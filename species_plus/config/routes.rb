@@ -1,4 +1,5 @@
 SpeciesPlus::Application.routes.draw do
+  get "species/creature"
   root :to => redirect('/static_pages/home')
   match '/static_pages/home', :to =>'static_pages#home', via: 'get'
   get "static_pages/help"

@@ -5,7 +5,7 @@ require 'json'
 
   def creature
     @creatures = JSON.parse(@@data)
-    @creature = @creatures.select {|c| c["full_name"] == params["name"] }
+    @creature = @creatures.select {|c| c["full_name"] == params["name"] }.shift
   end
 
 end

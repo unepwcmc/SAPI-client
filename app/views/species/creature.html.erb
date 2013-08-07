@@ -7,7 +7,7 @@
 
   <div class="row">
     <div class="large-3">
-      <span class="label">Name: <%= @creature[0]["full_name"] %></span>
+      <span class="label">Name: <%= @creature["full_name"] %></span>
     </div>
   </div>
 
@@ -33,7 +33,7 @@
         </div>
         <div class="large-6 columns">
           <ul class="animal_descr">
-            <% @creature[0].each do |key, value| %>
+            <% @creature.each do |key, value| %>
             <li><%= value %></li>
             <% end %>
           </ul>

@@ -7,7 +7,7 @@
 
   <div class="row">
     <div class="large-3">
-      <span class="label">Aegypius Monachus</span>
+      <span class="label">Name: <%= @creature[0]["full_name"] %></span>
     </div>
   </div>
 
@@ -33,16 +33,9 @@
         </div>
         <div class="large-6 columns">
           <ul class="animal_descr">
-            <li>Aves</li>
-            <li>Falconiformes</li>
-            <li>Accipitridae</li>
-            <li>Aegypius</li>
-            <li>Monachus</li>
-            <li>Aegypius Monachus</li>
-            <li>Linnaeus 176</li>
-            <li>II</li>
-            <li>Black Vulture, Cinereus Vuture</li>
-            <li>Sęp kasztanowaty</li>
+            <% @creature[0].each do |key, value| %>
+            <li><%= value %></li>
+            <% end %>
           </ul>
         </div>
       </div>
@@ -52,20 +45,20 @@
           <div class="large-12 columns animal_imgs">
             <div class="row">
               <div class="large-6 columns img_thumb">
-                  <img src="img/aegypius1.jpg">
+                  <!-- <img src="img/aegypius1.jpg"> -->
                 </div>
 
               <div class="large-6 columns img_thumb">
-                  <img src="img/aegypius1.jpg">
+                  <!-- <img src="img/aegypius1.jpg"> -->
                 </div>
             </div>
             <div class="row">
               <div class="large-6 columns img_thumb">
-                  <img src="img/aegypius1.jpg">
+                  <!-- <img src="img/aegypius1.jpg"> -->
                 </div>
 
               <div class="large-6 columns img_thumb">
-                  <img src="img/aegypius1.jpg">
+                  <!-- <img src="img/aegypius1.jpg"> -->
                 </div>
             </div>
           </div>

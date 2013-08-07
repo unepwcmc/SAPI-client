@@ -22,13 +22,15 @@ body{
 	font-size: 12px;
 }
 
-.animal_descr li{
-	padding-top: 15px;
-	list-style-type: none;
+.creature_descr{
+	font-size: 17px;
+	border: none;
 }
-.left{
+
+.level{
 	font-weight: bold;
 }
+
 .animal_imgs{
 	text-align: center;
 	margin: 20px auto 15px 20px;

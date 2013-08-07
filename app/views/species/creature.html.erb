@@ -16,28 +16,15 @@
     <!-- ROW table + pictures + chart -->
     <div class="row">
       <div class="large-7 columns">
-        <div class="large-6 columns">
-          <ul class="animal_descr left">
-            <li>Class:</li>
-            <li>Order:</li>
-            <li>Family:</li>
-            <li>Genus:</li>
-            <li>Species:</li>
-            <li>Fullname:</li>
-            <li>Author &amp; Year:</li>
-            <li>CITES appendix</li>
-            <li>English names:</li>
-          </br>
-            <li>Polish names:</li>
-          </ul>
-        </div>
-        <div class="large-6 columns">
-          <ul class="animal_descr">
-            <% @creature.each do |key, value| %>
-            <li><%= value %></li>
-            <% end %>
-          </ul>
-        </div>
+
+        <table class="large-12 columns creature_descr">
+          <% @tax.each do |level| %>
+            <tr>
+              <td class="large-4 columns level"> <%= level.capitalize.gsub("_", " ") %>: </td> <td   class="large-8 columns"> <%= @creature[level] %> </td>
+            </tr>
+          <% end %>
+        </table>
+
       </div>
 
       <div class="large-5 columns">

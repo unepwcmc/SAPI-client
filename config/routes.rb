@@ -1,8 +1,10 @@
 SpeciesPlus::Application.routes.draw do
 
+  get "species/creature" => 'species#creature'
+  get "species" => 'species#creature'
   get "species/creature/:name" => 'species#creature'
   root :to => redirect('/static_pages/home')
-  match '/static_pages/home', :to =>'static_pages#home', via: 'get'
+  match '/static_pages/home', :to =>'static_pages#home', via: 'get', as: "home"
   get "static_pages/help"
   get "static_pages/math_map_compact"
   # The priority is based upon order of creation: first created -> highest priority.

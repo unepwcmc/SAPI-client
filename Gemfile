@@ -63,3 +63,6 @@ gem "google-search", "~> 1.0.3"
 
 #angular
 gem 'angularjs-rails'
+
+#node.js
+gem 'node', "~> 0.0.2"

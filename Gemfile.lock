@@ -44,6 +44,7 @@ GEM
     compass-rails (1.0.3)
       compass (>= 0.12.2, < 0.14)
     erubis (2.7.0)
+    eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
     fssm (0.2.10)
@@ -64,6 +65,8 @@ GEM
     mime-types (1.23)
     minitest (4.7.5)
     multi_json (1.7.7)
+    node (0.0.2)
+      eventmachine
     pg (0.16.0)
     polyglot (0.3.3)
     rack (1.5.2)
@@ -134,6 +137,7 @@ DEPENDENCIES
   google-search (~> 1.0.3)
   jbuilder (~> 1.2)
   jquery-rails
+  node (~> 0.0.2)
   pg
   rails (= 4.0.0)
   rails_12factor

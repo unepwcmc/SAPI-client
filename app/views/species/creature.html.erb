@@ -31,33 +31,18 @@
         <div class="row">
           <div class="large-12 columns animal_imgs">
             <div class="row">
-              <div class="large-6 columns img_thumb">
-                  <!-- <img src="img/aegypius1.jpg"> -->
-                </div>
-
-              <div class="large-6 columns img_thumb">
-                  <!-- <img src="img/aegypius1.jpg"> -->
-                </div>
-            </div>
-            <div class="row">
-              <div class="large-6 columns img_thumb">
-                  <!-- <img src="img/aegypius1.jpg"> -->
-                </div>
-
-              <div class="large-6 columns img_thumb">
-                  <!-- <img src="img/aegypius1.jpg"> -->
-                </div>
+              <% if @images.count > 0 %>
+                <% @images.each do |image|  %>
+                  <div class="large-6 columns img_thumb">
+                    <img src="<%= image %>" />
+                  </div>
+                <% end %>
+              <% end %>
             </div>
           </div>
         </div>
 
-          <div class="row">
-            <div class="large-12 columns">
-              <fieldset><legend>Population in years</legend>
-                <canvas id="chart_population" width="400" height="250"></canvas>
-              </fieldset>
-            </div>
-          </div>
+
       </div>
     </div>
   </div>

@@ -60,3 +60,5 @@ end
 gem 'rails_12factor', group: :production
 
 gem "google-search", "~> 1.0.3"
+
+#angular

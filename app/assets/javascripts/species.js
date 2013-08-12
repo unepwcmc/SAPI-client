@@ -5,6 +5,8 @@ var data = JSON.parse(json);
 function SpeciesCtrl($scope){
   $scope.species_chosen = new Array();
 
+  $scope.tablica = [{name:'ala'}, {name:'ma'}, {name:'kota'}, {name:'aaa'}];
+
   $scope.selectClass = function($name){
     if($scope.species_chosen.indexOf($name) > -1){
       $scope.species_chosen.splice($scope.species_chosen.indexOf( $name ), 1 );

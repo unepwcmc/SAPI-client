@@ -3,7 +3,16 @@ var json = '[{    "cites_accepted":true,    "class_name":"Aves",    "family_name
 var data = JSON.parse(json);
 
 function SpeciesCtrl($scope){
+  var species_chosen = new Array();
+
   $scope.selectClass = function($name){
-    console.log($name);
+    if(species_chosen.indexOf($name) > -1){
+      species_chosen.splice(species_chosen.indexOf( $name ), 1 );
+      console.log(species_chosen);
+    }
+    else{
+      species_chosen.push($name);
+      console.log(species_chosen);
+    }
   }
 }

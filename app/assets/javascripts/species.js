@@ -5,17 +5,27 @@ var data = JSON.parse(json);
 function SpeciesCtrl($scope){
   $scope.class_chosen = new Array();
   $scope.order_chosen = new Array();
+  $scope.species_chosen = new Array();
 
   $scope.selectClass = function($name){
     if($scope.class_chosen.indexOf($name) > -1){
       $scope.class_chosen.splice($scope.class_chosen.indexOf( $name ), 1 );
-      //console.log($scope.class_chosen);
+      for( var j=0; j < $scope.species_chosen.length; j++){
+          if($scope.species_chosen[j]['class_name'] == $name){
+             console.log(j);
+          }
+      }
     }
     else{
       $scope.class_chosen.push($name);
-      //console.log($scope.class_chosen);
+      for( var j=0; j < data.length; j++){
+          if(data[j]['class_name'] == $name){
+             $scope.species_chosen.push(data[j])
+          }
+      }
     }
-  }
+  };
+
   $scope.selectOrder = function($name){
     if($scope.order_chosen.indexOf($name) > -1){
       $scope.order_chosen.splice($scope.order_chosen.indexOf( $name ), 1 );
@@ -23,7 +33,33 @@ function SpeciesCtrl($scope){
     }
     else{
       $scope.order_chosen.push($name);
-      //console.log($scope.class_chosen);
+      for( var j=0; j < data.length; j++){
+          if(data[j]['order_name'] == $name){
+            $scope.species_chosen.push(data[j])
+          }
+      }
     }
   };
+
+  // $scope.changeSection = function($section){
+  //   $scope.species_chosen = new Array()
+  //   if ($section == 'animalia'){
+  //      for(var i=0; i < $scope.class_chosen.length, i++) {
+  //         for( var j=0; j < json.length; j++){
+  //           if(json[j]['class_name'] == $scope.class_chosen[i]){
+  //             $scope.species_chosen.push(json[j])
+  //           }
+  //         }
+  //      }
+  //   }
+  //   else if($section == "plantae"){
+  //     for(var i=0; i < $scope.order_chosen.length, i++) {
+  //         for( var j=0; j < json.length; j++){
+  //           if(json[j]['order_name'] == $scope.order_chosen[i]){
+  //             $scope.species_chosen.push(json[j])
+  //           }
+  //         }
+  //      }
+  //   }
+  // }
 }

@@ -3,7 +3,7 @@ var json = '[{    "cites_accepted":true,    "class_name":"Aves",    "family_name
 var data = JSON.parse(json);
 
 function SpeciesCtrl($scope){
-  $scope.selectClass = function(){
-    console.log(this);
+  $scope.selectClass = function($name){
+    console.log($name);
   }
 }

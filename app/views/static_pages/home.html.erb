@@ -6,7 +6,7 @@
 	<div class="row" ng-controller="SpeciesCtrl">
 		<div class="section-container auto" data-section>
 			<section>
-			    <p class="title" data-section-title><a href="#panel1">Animalia</a></p>
+			    <p class="title" data-section-title ng-click='sectionChange()'><a href="#panel1">Animalia</a></p>
 			    <div class="content" data-section-content>
 			    	<div class="row">
 			      		<div class="large-3 columns">
@@ -31,7 +31,7 @@
 			</section>
 
 			<section>
-			    <p class="title" data-section-title><a href="#panel2">Plantae</a></p>
+			    <p class="title" data-section-title ng-click='sectionChange()'><a href="#panel2">Plantae</a></p>
 			    <div class="content" data-section-content>
 			     	<div class="row">
 			      		<div class="large-4 columns">
@@ -89,15 +89,15 @@
    			<label>CITES appendix</label>
 			<div class="switch_species switch_species-four candy yellow">
 				<input id="week61" name="view6" type="radio">
-				<label for="week61" onclick="">I</label>
+				<label for="week61" onclick="" ng-click="citesRestrict('I')">I</label>
 				<input id="month62" name="view6" type="radio">
-				<label for="month62" onclick="">II</label>
+				<label for="month62" onclick="" ng-click="citesRestrict('II')">II</label>
 
 				<input id="year63" name="view6" type="radio">
-				<label for="year63" onclick="">III</label>
+				<label for="year63" onclick="" ng-click="citesRestrict('III')">III</label>
 
 				<input id="decade63" name="view6" type="radio" checked>
-				<label for="decade63" onclick="">nc</label>
+				<label for="decade63" onclick="" ng-click="citesRestrict('nc')">nc</label>
 
 				<span class="slide-button"></span>
 			</div>
@@ -106,7 +106,7 @@
 
 	<div>Gatuneczki:
 		<ul>
-			<li ng-repeat="elem in species_chosen">{{elem.full_name}}</li>
+			<li ng-repeat="elem in final_chosen">{{elem.full_name}}</li>
 		</ul>
 	</div>
 </div>

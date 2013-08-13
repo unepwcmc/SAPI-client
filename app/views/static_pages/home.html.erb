@@ -10,20 +10,20 @@
 			    <div class="content" data-section-content>
 			    	<div class="row">
 			      		<div class="large-3 columns">
-			      			<div class="panel" ng-click="select('Mammalia', 'class_name')">Mammalia</div>
-			      			<div class="panel" ng-click="select('Actinopterygii', 'class_name')">Actinopterygii</div>
+			      			<div class="panel" ng-click="selectClass('Mammalia')">Mammalia</div>
+			      			<div class="panel" ng-click="selectClass('Actinopterygii')">Actinopterygii</div>
 			      		</div>
 			      		<div class="large-3 columns">
-			      			<div class="panel" ng-click="select('Aves', 'class_name')">Aves</div>
-			      			<div class="panel" ng-click="select('Insecta', 'class_name')">Insecta</div>
+			      			<div class="panel" ng-click="selectClass('Aves')">Aves</div>
+			      			<div class="panel" ng-click="selectClass('Insecta')">Insecta</div>
 			      		</div>
 			      		<div class="large-3 columns">
-			      			<div class="panel" ng-click="select('Reptilia', 'class_name')">Reptilia</div>
-			      			<div class="panel" ng-click="select('Hirudinoidea', 'class_name')">Hirudinoidea</div>
+			      			<div class="panel" ng-click="selectClass('Reptilia')">Reptilia</div>
+			      			<div class="panel" ng-click="selectClass('Hirudinoidea')">Hirudinoidea</div>
 			      		</div>
 			      		<div class="large-3 columns">
-			      			<div class="panel" ng-click="select('Amphibia', 'class_name')">Amphibia</div>
-			      			<div class="panel" ng-click="select('Gastropoda', 'class_name')">Gastropoda</div>
+			      			<div class="panel" ng-click="selectClass('Amphibia')">Amphibia</div>
+			      			<div class="panel" ng-click="selectClass('Gastropoda')">Gastropoda</div>
 			      		</div>
 			      	</div>
 
@@ -35,19 +35,19 @@
 			    <div class="content" data-section-content>
 			     	<div class="row">
 			      		<div class="large-4 columns">
-			      			<div class="panel" ng-click="select('Amarylidaceae', 'family_name')">Amarylidaceae</div>
-			      			<div class="panel" ng-click="select('Lycopodiaceae', 'family_name')">Lycopodiaceae</div>
-			      			<div class="panel" ng-click="select('Primulaceae', 'family_name')">Primulaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Amarylidaceae')">Amarylidaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Lycopodiaceae')">Lycopodiaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Primulaceae')">Primulaceae</div>
 			      		</div>
 			      		<div class="large-4 columns">
-			      			<div class="panel" ng-click="select('Compositae', 'family_name')">Compositae</div>
-			      			<div class="panel" ng-click="select('Menyanthaceae', 'family_name')">Menyanthaceae</div>
-			      			<div class="panel" ng-click="select('Ranunculaceae', 'family_name')">Ranunculaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Compositae')">Compositae</div>
+			      			<div class="panel" ng-click="selectOrder('Menyanthaceae')">Menyanthaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Ranunculaceae')">Ranunculaceae</div>
 			      		</div>
 			      		<div class="large-4 columns">
-			      			<div class="panel" ng-click="select('Euphorbiaceae', 'family_name')">Euphorbiaceae</div>
-			      			<div class="panel" ng-click="select('Orchidaceae', 'family_name')">Orchidaceae</div>
-			      			<div class="panel" ng-click="select('Taxaceae', 'family_name')">Taxaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Euphorbiaceae')">Euphorbiaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Orchidaceae')">Orchidaceae</div>
+			      			<div class="panel" ng-click="selectOrder('Taxaceae')">Taxaceae</div>
 			      		</div>
 			      	</div>
 
@@ -88,7 +88,7 @@
    		<div class="large-12 column">
    			<label>CITES appendix</label>
 			<div class="switch_species switch_species-four candy yellow">
-				<input id="week61" name="view6" type="radio" checked>
+				<input id="week61" name="view6" type="radio">
 				<label for="week61" onclick="">I</label>
 				<input id="month62" name="view6" type="radio">
 				<label for="month62" onclick="">II</label>
@@ -96,7 +96,7 @@
 				<input id="year63" name="view6" type="radio">
 				<label for="year63" onclick="">III</label>
 
-				<input id="decade63" name="view6" type="radio">
+				<input id="decade63" name="view6" type="radio" checked>
 				<label for="decade63" onclick="">nc</label>
 
 				<span class="slide-button"></span>

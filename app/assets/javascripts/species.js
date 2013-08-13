@@ -4,12 +4,27 @@ var data = JSON.parse(json);
 function SpeciesCtrl($scope){
   $scope.species_chosen = new Array();
   $scope.levels = new Array();
+  $scope.cites = 'nc';
 
   function include(arr, obj) {
     for(var i=0; i<arr.length; i++) {
         if (arr[i] == obj) return true;
         }
+  }
+
+  function finalSelect($species, $cites){
+    var reg = new RegExp("^.*\/"+$cites+"$");
+    $scope.final_chosen = new Array();
+    if($cites == 'nc'){
+      $scope.final_chosen = $species;
     }
+    for (var i = 0; i < $species.length; i++){
+      if(reg.test($species[i]["current_listing"]) || $species[i]["current_listing"] == $cites){
+        $scope.final_chosen.push($species[i]);
+      }
+    }
+  };
+
   $scope.select = function($name, $level){
     if (include($scope.levels, $name) == true){
       for (var j = 0; j < $scope.species_chosen.length; j++){
@@ -27,5 +42,18 @@ function SpeciesCtrl($scope){
       }
       $scope.levels.push($name);
     }
+
+    finalSelect($scope.species_chosen, $scope.cites);
+  };
+
+  $scope.citesRestrict = function($cites){
+    $scope.cites = $cites;
+    finalSelect($scope.species_chosen, $scope.cites);
+  };
+
+  $scope.sectionChange = function(){
+    $scope.species_chosen = new Array();
+    $scope.levels = new Array();
+    $scope.final_chosen = new Array();
   };
 }

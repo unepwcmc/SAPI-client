@@ -3,12 +3,29 @@ var data = JSON.parse(json);
 
 function SpeciesCtrl($scope){
   $scope.species_chosen = new Array();
+  $scope.levels = new Array();
 
+  function include(arr, obj) {
+    for(var i=0; i<arr.length; i++) {
+        if (arr[i] == obj) return true;
+        }
+    }
   $scope.select = function($name, $level){
-    for (var i = 0; i < data.length; i++){
-      if (data[i][$level] == $name){
-          $scope.species_chosen.push(data[i]);
+    if (include($scope.levels, $name) == true){
+      for (var j = 0; j < $scope.species_chosen.length; j++){
+        if ($scope.species_chosen[j][$level] == $name){
+          $scope.species_chosen.splice(j, 1);
+        }
       }
+      $scope.levels.splice($scope.levels.indexOf($name),1);
+    }
+    else{
+      for (var i = 0; i < data.length; i++){
+        if (data[i][$level] == $name){
+            $scope.species_chosen.push(data[i]);
+        }
+      }
+      $scope.levels.push($name);
     }
   };
 }

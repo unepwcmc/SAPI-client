@@ -25528,3 +25528,3027 @@ Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 11:22:23 +02
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 11:22:23 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 11:48:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 1232ms (Views: 1216.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:29 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 11:48:30 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 11:57:15 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:56 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 11:58:57 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:00:15 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 93ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:16 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:00:59 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:01:00 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:02:47 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:49 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:03:50 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:27 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:04:28 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:07:05 +0200
+Processing by StaticPagesController#home as HTML
+ERROR: compiling _app_views_static_pages_home_html_erb__3774319321882388614_70150439360340 RAISED /home/wiktoria/rgsoc/SAPI-client/app/views/static_pages/home.html.erb:110: syntax error, unexpected '}', expecting =>
+...r.append=( {elem.english_names}}.join(", ") );@output_buffer...
+...                               ^
+Function body:           def _app_views_static_pages_home_html_erb__3774319321882388614_70150439360340(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/home";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='	<div class="row" >
+		<div class="large-12 columns">
+			<h2 >SPECIES+</h2>
+		</div>
+	</div>
+	<div class="row" ng-controller="SpeciesCtrl">
+		<div class="section-container auto" data-section>
+			<section>
+			    <p class="title" data-section-title ng-click=\'sectionChange()\'><a href="#panel1">Animalia</a></p>
+			    <div class="content" data-section-content>
+			    	<div class="row">
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Mammalia\', \'class_name\')">Mammalia</div>
+			      			<div class="panel" ng-click="select(\'Actinopterygii\', \'class_name\')">Actinopterygii</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Aves\', \'class_name\')">Aves</div>
+			      			<div class="panel" ng-click="select(\'Insecta\', \'class_name\')">Insecta</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Reptilia\', \'class_name\')">Reptilia</div>
+			      			<div class="panel" ng-click="select(\'Hirudinoidea\', \'class_name\')">Hirudinoidea</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Amphibia\', \'class_name\')">Amphibia</div>
+			      			<div class="panel" ng-click="select(\'Gastropoda\', \'class_name\')">Gastropoda</div>
+			      		</div>
+			      	</div>
+
+			    </div>
+			</section>
+
+			<section>
+			    <p class="title" data-section-title ng-click=\'sectionChange()\'><a href="#panel2">Plantae</a></p>
+			    <div class="content" data-section-content>
+			     	<div class="row">
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Amarylidaceae\', \'family_name\')">Amarylidaceae</div>
+			      			<div class="panel" ng-click="select(\'Lycopodiaceae\', \'family_name\')">Lycopodiaceae</div>
+			      			<div class="panel" ng-click="select(\'Primulaceae\', \'family_name\')">Primulaceae</div>
+			      		</div>
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Compositae\', \'family_name\')">Compositae</div>
+			      			<div class="panel" ng-click="select(\'Menyanthaceae\', \'family_name\')">Menyanthaceae</div>
+			      			<div class="panel" ng-click="select(\'Ranunculaceae\', \'family_name\')">Ranunculaceae</div>
+			      		</div>
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Euphorbiaceae\', \'family_name\')">Euphorbiaceae</div>
+			      			<div class="panel" ng-click="select(\'Orchidaceae\', \'family_name\')">Orchidaceae</div>
+			      			<div class="panel" ng-click="select(\'Taxaceae\', \'family_name\')">Taxaceae</div>
+			      		</div>
+			      	</div>
+
+			      </div>
+			</section>
+
+			<section>
+			    <p class="title" data-section-title><a href="#panel2">Animalia + Plantae</a></p>
+			    <div class="content" data-section-content>
+			      	<div class="row">
+			      		<div class="large-6 columns">
+			      			<div class="panel">Animalia</div>
+			      		</div>
+			      		<div class="large-6 columns">
+			      			<div class="panel">Plantae</div>
+			      		</div>
+			      	</div>
+
+					<div class="chosen_content">
+						<div class= "row"> There are <span class="chosen_count"></span><span class="chosen_group"></span>endangered species in Poland
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<p class="title" data-section-title><a href="#panel2">Tax Tree</a></p>
+			    <div class="content" data-section-content>
+				    <div id="chart2"></div>
+				        ';@output_buffer.append=( javascript_include_tag "d3.v3.min" );@output_buffer.safe_append='
+    						';@output_buffer.append=( javascript_include_tag "tree" );@output_buffer.safe_append='
+			</div>
+			</section>
+
+		</div>
+
+
+	<div class="row">
+   		<div class="large-12 column">
+   			<label>CITES appendix</label>
+			<div class="switch_species switch_species-four candy yellow">
+				<input id="week61" name="view6" type="radio">
+				<label for="week61" onclick="" ng-click="citesRestrict(\'I\')">I</label>
+				<input id="month62" name="view6" type="radio">
+				<label for="month62" onclick="" ng-click="citesRestrict(\'II\')">II</label>
+
+				<input id="year63" name="view6" type="radio">
+				<label for="year63" onclick="" ng-click="citesRestrict(\'III\')">III</label>
+
+				<input id="decade63" name="view6" type="radio" checked>
+				<label for="decade63" onclick="" ng-click="citesRestrict(\'nc\')">nc</label>
+
+				<span class="slide-button"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-12 column">
+				<ul class="species_list">
+					<li ng-repeat="elem in final_chosen"><a href="/species/creature/{{elem.full_name}}">{{elem.full_name}}</a> ';@output_buffer.append=( {elem.english_names}}.join(", ") );@output_buffer.safe_append='{</li>
+			</ul>
+		</div>
+	</div>
+</div>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/usr/local/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__460464513153713912__process_action__callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2852067729543246494__call__callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/home.html.erb within layouts/application (98.0ms)
+Completed 500 Internal Server Error in 103ms
+
+ActionView::Template::Error (/home/wiktoria/rgsoc/SAPI-client/app/views/static_pages/home.html.erb:110: syntax error, unexpected '}', expecting =>
+...r.append=( {elem.english_names}}.join(", ") );@output_buffer...
+...                               ^):
+    107: 	<div class="row">
+    108: 		<div class="large-12 column">
+    109: 				<ul class="species_list">
+    110: 					<li ng-repeat="elem in final_chosen"><a href="/species/creature/{{elem.full_name}}">{{elem.full_name}}</a> <%= {elem.english_names}}.join(", ") %>{</li>
+    111: 			</ul>
+    112: 		</div>
+    113: 	</div>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__460464513153713912__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2852067729543246494__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.5ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:07:21 +0200
+Processing by StaticPagesController#home as HTML
+ERROR: compiling _app_views_static_pages_home_html_erb__3774319321882388614_70150308038780 RAISED /home/wiktoria/rgsoc/SAPI-client/app/views/static_pages/home.html.erb:110: syntax error, unexpected '}', expecting =>
+....append=( {{elem.english_names}}.join(", ") );@output_buffer...
+...                               ^
+Function body:           def _app_views_static_pages_home_html_erb__3774319321882388614_70150308038780(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/home";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='	<div class="row" >
+		<div class="large-12 columns">
+			<h2 >SPECIES+</h2>
+		</div>
+	</div>
+	<div class="row" ng-controller="SpeciesCtrl">
+		<div class="section-container auto" data-section>
+			<section>
+			    <p class="title" data-section-title ng-click=\'sectionChange()\'><a href="#panel1">Animalia</a></p>
+			    <div class="content" data-section-content>
+			    	<div class="row">
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Mammalia\', \'class_name\')">Mammalia</div>
+			      			<div class="panel" ng-click="select(\'Actinopterygii\', \'class_name\')">Actinopterygii</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Aves\', \'class_name\')">Aves</div>
+			      			<div class="panel" ng-click="select(\'Insecta\', \'class_name\')">Insecta</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Reptilia\', \'class_name\')">Reptilia</div>
+			      			<div class="panel" ng-click="select(\'Hirudinoidea\', \'class_name\')">Hirudinoidea</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Amphibia\', \'class_name\')">Amphibia</div>
+			      			<div class="panel" ng-click="select(\'Gastropoda\', \'class_name\')">Gastropoda</div>
+			      		</div>
+			      	</div>
+
+			    </div>
+			</section>
+
+			<section>
+			    <p class="title" data-section-title ng-click=\'sectionChange()\'><a href="#panel2">Plantae</a></p>
+			    <div class="content" data-section-content>
+			     	<div class="row">
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Amarylidaceae\', \'family_name\')">Amarylidaceae</div>
+			      			<div class="panel" ng-click="select(\'Lycopodiaceae\', \'family_name\')">Lycopodiaceae</div>
+			      			<div class="panel" ng-click="select(\'Primulaceae\', \'family_name\')">Primulaceae</div>
+			      		</div>
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Compositae\', \'family_name\')">Compositae</div>
+			      			<div class="panel" ng-click="select(\'Menyanthaceae\', \'family_name\')">Menyanthaceae</div>
+			      			<div class="panel" ng-click="select(\'Ranunculaceae\', \'family_name\')">Ranunculaceae</div>
+			      		</div>
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Euphorbiaceae\', \'family_name\')">Euphorbiaceae</div>
+			      			<div class="panel" ng-click="select(\'Orchidaceae\', \'family_name\')">Orchidaceae</div>
+			      			<div class="panel" ng-click="select(\'Taxaceae\', \'family_name\')">Taxaceae</div>
+			      		</div>
+			      	</div>
+
+			      </div>
+			</section>
+
+			<section>
+			    <p class="title" data-section-title><a href="#panel2">Animalia + Plantae</a></p>
+			    <div class="content" data-section-content>
+			      	<div class="row">
+			      		<div class="large-6 columns">
+			      			<div class="panel">Animalia</div>
+			      		</div>
+			      		<div class="large-6 columns">
+			      			<div class="panel">Plantae</div>
+			      		</div>
+			      	</div>
+
+					<div class="chosen_content">
+						<div class= "row"> There are <span class="chosen_count"></span><span class="chosen_group"></span>endangered species in Poland
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<p class="title" data-section-title><a href="#panel2">Tax Tree</a></p>
+			    <div class="content" data-section-content>
+				    <div id="chart2"></div>
+				        ';@output_buffer.append=( javascript_include_tag "d3.v3.min" );@output_buffer.safe_append='
+    						';@output_buffer.append=( javascript_include_tag "tree" );@output_buffer.safe_append='
+			</div>
+			</section>
+
+		</div>
+
+
+	<div class="row">
+   		<div class="large-12 column">
+   			<label>CITES appendix</label>
+			<div class="switch_species switch_species-four candy yellow">
+				<input id="week61" name="view6" type="radio">
+				<label for="week61" onclick="" ng-click="citesRestrict(\'I\')">I</label>
+				<input id="month62" name="view6" type="radio">
+				<label for="month62" onclick="" ng-click="citesRestrict(\'II\')">II</label>
+
+				<input id="year63" name="view6" type="radio">
+				<label for="year63" onclick="" ng-click="citesRestrict(\'III\')">III</label>
+
+				<input id="decade63" name="view6" type="radio" checked>
+				<label for="decade63" onclick="" ng-click="citesRestrict(\'nc\')">nc</label>
+
+				<span class="slide-button"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-12 column">
+				<ul class="species_list">
+					<li ng-repeat="elem in final_chosen"><a href="/species/creature/{{elem.full_name}}">{{elem.full_name}}</a> ';@output_buffer.append=( {{elem.english_names}}.join(", ") );@output_buffer.safe_append='</li>
+			</ul>
+		</div>
+	</div>
+</div>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/usr/local/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__460464513153713912__process_action__callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2852067729543246494__call__callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/home.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (/home/wiktoria/rgsoc/SAPI-client/app/views/static_pages/home.html.erb:110: syntax error, unexpected '}', expecting =>
+....append=( {{elem.english_names}}.join(", ") );@output_buffer...
+...                               ^):
+    107: 	<div class="row">
+    108: 		<div class="large-12 column">
+    109: 				<ul class="species_list">
+    110: 					<li ng-repeat="elem in final_chosen"><a href="/species/creature/{{elem.full_name}}">{{elem.full_name}}</a> <%= {{elem.english_names}}.join(", ") %></li>
+    111: 			</ul>
+    112: 		</div>
+    113: 	</div>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__460464513153713912__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2852067729543246494__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:08:23 +0200
+Processing by StaticPagesController#home as HTML
+ERROR: compiling _app_views_static_pages_home_html_erb__3774319321882388614_70150309775800 RAISED /home/wiktoria/rgsoc/SAPI-client/app/views/static_pages/home.html.erb:110: syntax error, unexpected '}', expecting =>
+...end=( b = {{elem.english_names}} b.join(", ") );@output_buff...
+...                               ^
+Function body:           def _app_views_static_pages_home_html_erb__3774319321882388614_70150309775800(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/home";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='	<div class="row" >
+		<div class="large-12 columns">
+			<h2 >SPECIES+</h2>
+		</div>
+	</div>
+	<div class="row" ng-controller="SpeciesCtrl">
+		<div class="section-container auto" data-section>
+			<section>
+			    <p class="title" data-section-title ng-click=\'sectionChange()\'><a href="#panel1">Animalia</a></p>
+			    <div class="content" data-section-content>
+			    	<div class="row">
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Mammalia\', \'class_name\')">Mammalia</div>
+			      			<div class="panel" ng-click="select(\'Actinopterygii\', \'class_name\')">Actinopterygii</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Aves\', \'class_name\')">Aves</div>
+			      			<div class="panel" ng-click="select(\'Insecta\', \'class_name\')">Insecta</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Reptilia\', \'class_name\')">Reptilia</div>
+			      			<div class="panel" ng-click="select(\'Hirudinoidea\', \'class_name\')">Hirudinoidea</div>
+			      		</div>
+			      		<div class="large-3 columns">
+			      			<div class="panel" ng-click="select(\'Amphibia\', \'class_name\')">Amphibia</div>
+			      			<div class="panel" ng-click="select(\'Gastropoda\', \'class_name\')">Gastropoda</div>
+			      		</div>
+			      	</div>
+
+			    </div>
+			</section>
+
+			<section>
+			    <p class="title" data-section-title ng-click=\'sectionChange()\'><a href="#panel2">Plantae</a></p>
+			    <div class="content" data-section-content>
+			     	<div class="row">
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Amarylidaceae\', \'family_name\')">Amarylidaceae</div>
+			      			<div class="panel" ng-click="select(\'Lycopodiaceae\', \'family_name\')">Lycopodiaceae</div>
+			      			<div class="panel" ng-click="select(\'Primulaceae\', \'family_name\')">Primulaceae</div>
+			      		</div>
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Compositae\', \'family_name\')">Compositae</div>
+			      			<div class="panel" ng-click="select(\'Menyanthaceae\', \'family_name\')">Menyanthaceae</div>
+			      			<div class="panel" ng-click="select(\'Ranunculaceae\', \'family_name\')">Ranunculaceae</div>
+			      		</div>
+			      		<div class="large-4 columns">
+			      			<div class="panel" ng-click="select(\'Euphorbiaceae\', \'family_name\')">Euphorbiaceae</div>
+			      			<div class="panel" ng-click="select(\'Orchidaceae\', \'family_name\')">Orchidaceae</div>
+			      			<div class="panel" ng-click="select(\'Taxaceae\', \'family_name\')">Taxaceae</div>
+			      		</div>
+			      	</div>
+
+			      </div>
+			</section>
+
+			<section>
+			    <p class="title" data-section-title><a href="#panel2">Animalia + Plantae</a></p>
+			    <div class="content" data-section-content>
+			      	<div class="row">
+			      		<div class="large-6 columns">
+			      			<div class="panel">Animalia</div>
+			      		</div>
+			      		<div class="large-6 columns">
+			      			<div class="panel">Plantae</div>
+			      		</div>
+			      	</div>
+
+					<div class="chosen_content">
+						<div class= "row"> There are <span class="chosen_count"></span><span class="chosen_group"></span>endangered species in Poland
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<p class="title" data-section-title><a href="#panel2">Tax Tree</a></p>
+			    <div class="content" data-section-content>
+				    <div id="chart2"></div>
+				        ';@output_buffer.append=( javascript_include_tag "d3.v3.min" );@output_buffer.safe_append='
+    						';@output_buffer.append=( javascript_include_tag "tree" );@output_buffer.safe_append='
+			</div>
+			</section>
+
+		</div>
+
+
+	<div class="row">
+   		<div class="large-12 column">
+   			<label>CITES appendix</label>
+			<div class="switch_species switch_species-four candy yellow">
+				<input id="week61" name="view6" type="radio">
+				<label for="week61" onclick="" ng-click="citesRestrict(\'I\')">I</label>
+				<input id="month62" name="view6" type="radio">
+				<label for="month62" onclick="" ng-click="citesRestrict(\'II\')">II</label>
+
+				<input id="year63" name="view6" type="radio">
+				<label for="year63" onclick="" ng-click="citesRestrict(\'III\')">III</label>
+
+				<input id="decade63" name="view6" type="radio" checked>
+				<label for="decade63" onclick="" ng-click="citesRestrict(\'nc\')">nc</label>
+
+				<span class="slide-button"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-12 column">
+				<ul class="species_list">
+					<li ng-repeat="elem in final_chosen"><a href="/species/creature/{{elem.full_name}}">{{elem.full_name}}</a> ';@output_buffer.append=( b = {{elem.english_names}} b.join(", ") );@output_buffer.safe_append='</li>
+			</ul>
+		</div>
+	</div>
+</div>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/usr/local/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__460464513153713912__process_action__callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__2852067729543246494__call__callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/usr/local/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/home.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (/home/wiktoria/rgsoc/SAPI-client/app/views/static_pages/home.html.erb:110: syntax error, unexpected '}', expecting =>
+...end=( b = {{elem.english_names}} b.join(", ") );@output_buff...
+...                               ^):
+    107: 	<div class="row">
+    108: 		<div class="large-12 column">
+    109: 				<ul class="species_list">
+    110: 					<li ng-repeat="elem in final_chosen"><a href="/species/creature/{{elem.full_name}}">{{elem.full_name}}</a> <%= b = {{elem.english_names}} b.join(", ") %></li>
+    111: 			</ul>
+    112: 		</div>
+    113: 	</div>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__460464513153713912__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2852067729543246494__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:11:50 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:11:51 +0200
+
+
+Started GET "/species/creature/Accipiter%20brevipes" for 127.0.0.1 at 2013-08-14 12:12:46 +0200
+Processing by SpeciesController#creature as HTML
+  Parameters: {"name"=>"Accipiter brevipes"}
+  Rendered species/creature.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 629ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:12:47 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:13:18 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:19 +0200
+
+
+Started GET "/species/creature/Balaenoptera%20borealis" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+Processing by SpeciesController#creature as HTML
+  Parameters: {"name"=>"Balaenoptera borealis"}
+  Rendered species/creature.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 143ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:26 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:13:29 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:13:42 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:42 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:42 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:42 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:13:43 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:16 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:17 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:17 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:17 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:15:17 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:04 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:05 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:05 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:05 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:05 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:05 +0200
+
+
+Started GET "/species/creature/Balaenoptera%20borealis" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+Processing by SpeciesController#creature as HTML
+  Parameters: {"name"=>"Balaenoptera borealis"}
+  Rendered species/creature.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 482ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:27 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 12:16:33 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)

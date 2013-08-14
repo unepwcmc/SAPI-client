@@ -2873,3 +2873,893 @@ ActionController::RoutingError (No route matches [GET] "/math_map_compact"):
   Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
   Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
   Rendered /usr/local/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-14 14:08:17 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 14:08:17 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 183ms (Views: 176.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 14:08:18 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 14:09:34 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 234ms (Views: 192.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:09:35 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 14:10:18 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 202ms (Views: 195.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:19 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 195ms (Views: 186.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:31 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:32 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:32 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:32 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:10:32 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 14:12:58 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 162ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:12:59 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 14:13:09 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 235ms (Views: 228.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:13:10 +0200
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 230ms (Views: 223.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toggle-switch.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/interactive_tree.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/prism.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/prism-light.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/added.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/species.css?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/d3.v3.min.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/tree.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/buttons.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/species.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/prism.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/static_pages/math_map_compact" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+Processing by StaticPagesController#math_map_compact as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:01 +0200
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-14 14:14:02 +0200

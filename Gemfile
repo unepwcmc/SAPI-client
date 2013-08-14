@@ -69,3 +69,6 @@ gem 'angularjs-rails'
 
 #node.js
 gem 'node', "~> 0.0.2"
+
+#reading Data from controller in JS files
+gem 'gon'

@@ -48,6 +48,9 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     fssm (0.2.10)
+    gon (4.1.1)
+      actionpack (>= 2.3.0)
+      json
     google-search (1.0.3)
       json
     hike (1.2.3)
@@ -139,6 +142,7 @@ DEPENDENCIES
   angularjs-rails
   coffee-rails (~> 4.0.0)
   compass-rails
+  gon
   google-search (~> 1.0.3)
   jbuilder (~> 1.2)
   jquery-rails

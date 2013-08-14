@@ -20,7 +20,7 @@ function button_click(e){
 		// console.log(classes_chosen);
 	}
 	else{
-		this.setAttribute('style', "background-color:#CCFFCC" );
+		this.setAttribute('style', "background-color:#DCEEFC" );
 		this.setAttribute('data-flag', "clicked");
 		classes_chosen.push(name);
 		load_the_content(classes_chosen);

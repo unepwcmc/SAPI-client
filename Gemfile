@@ -63,6 +63,9 @@ gem "google-search", "~> 1.0.3"
 
 #angular
 gem 'angularjs-rails'
+# # AngularJS related stuff
+# gem 'ng-rails-csrf', :git => "git://github.com/xrd/ng-rails-csrf.git"
+# gem 'angularjs-rails-resource'
 
 #node.js
 gem 'node', "~> 0.0.2"

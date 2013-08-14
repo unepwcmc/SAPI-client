@@ -30,6 +30,7 @@ function SpeciesCtrl($scope){
       for (var j = 0; j < $scope.species_chosen.length; j++){
         if ($scope.species_chosen[j][$level] == $name){
           $scope.species_chosen.splice(j, 1);
+          j--;
         }
       }
       $scope.levels.splice($scope.levels.indexOf($name),1);

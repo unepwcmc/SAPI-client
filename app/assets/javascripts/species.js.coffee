@@ -20,7 +20,9 @@ data = JSON.parse(json)
   $scope.species_chosen = new Array()
   $scope.levels = new Array()
   $scope.cites = "nc"
+
   $scope.select = ($name, $level) ->
+    console.log("TT");
     if include($scope.levels, $name) is true
       j = 0
 

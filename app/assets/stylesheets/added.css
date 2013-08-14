@@ -46,24 +46,17 @@ fieldset{
 	margin-left: 10px;
 }
 
-
-.authors1{
-	margin-left: 30px;
-}
-.authors1 div{
-	padding: 8px;
-}
-.authors1 div a{
-	padding-left: 20px;
-}
-
-.authors2_name ul{
-	list-style-type: none;
-	margin-left: 30px;
-	color: #2795b6;
-}
-
 .notice{
 	margin-top: 30px;
 	margin-left: 30px;
+}
+
+
+.species_list {
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.species_list, li {
+	list-style-type: none;
+	margin-bottom: 10px;
 }

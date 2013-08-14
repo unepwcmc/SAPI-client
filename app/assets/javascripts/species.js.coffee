@@ -2,7 +2,7 @@ json = '[{    "cites_accepted":true,    "class_name":"Aves",    "family_name":"A
 data = JSON.parse(json)
 
 @SpeciesCtrl =[ "$scope", ($scope) ->
-  include = (arr, obj) ->
+    include = (arr, obj) ->
     i = 0
 
     while i < arr.length
@@ -20,14 +20,14 @@ data = JSON.parse(json)
   $scope.species_chosen = new Array()
   $scope.levels = new Array()
   $scope.cites = "nc"
-
   $scope.select = ($name, $level) ->
-    console.log("TT");
     if include($scope.levels, $name) is true
       j = 0
 
       while j < $scope.species_chosen.length
-        $scope.species_chosen.splice j, 1  if $scope.species_chosen[j][$level] is $name
+        if $scope.species_chosen[j][$level] is $name
+          $scope.species_chosen.splice j, 1
+          j--
         j++
       $scope.levels.splice $scope.levels.indexOf($name), 1
     else

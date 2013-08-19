@@ -42,6 +42,23 @@
     <% end %>
 
     <%= yield %>
+    <ol class="joyride-list" data-joyride>
+      <li data-id="firstStop" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+        <p>Choose the Kingdom you're interested in</p>
+      </li>
+      <li data-id="secondStop" data-class="custom so-awesome" data-button="Next">
+        <h4>Classes/Families</h4>
+        <p>Choose class(es)/family(ies) of creatures</p>
+      </li>
+      <li data-id="thirdStop" data-button="Next" data-options="tipLocation:bottom">
+        <h4>CITES</h4>
+        <p>Choose the level of endangered species</p>
+      </li>
+      <li data-options="nextButton:false">
+        <h4>Enjoy</h4>
+        <p>Now you can learn about creature!</p>
+      </li>
+    </ol>
     <div class="row">
       <footer class="large-12 colunms">
           <div class="large-4 columns">
@@ -65,9 +82,9 @@
               <li><a href="http://uat.gbif.org/developer/maps">Geolocalisation data</a></li>
             </ul>
           </div>
-          <div class="large-4 columns">
+          <div id="button_how_to" class="large-4 columns">
             <h6>How to use?</h6>
-            <p>If you don;t know how to use the data</p>
+            <p>If you don't know how to use the data</p>
           </div>
       </footer>
     </div>
@@ -75,5 +92,10 @@
     <%= javascript_include_tag "species" %>
     <%= javascript_include_tag "prism" %>
     <%= javascript_include_tag "application" %>
+    <script type="text/javascript">
+      $('#button_how_to').on('click', function(){
+        $(document).foundation('joyride', 'start');
+      });
+    </script>
   </body>
 </html>

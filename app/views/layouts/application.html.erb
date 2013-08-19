@@ -7,7 +7,8 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
   <head>
   	<meta charset="utf-8" />
-
+    <!-- favicon -->
+    <link rel="shortcut icon" href="<%= asset_path ('iconmonstr-plus-4-icon-20130819-favicon.ico') %>" >
   	<!-- Uncomment to make IE8 render like IE7 -->
   	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
 
@@ -33,14 +34,43 @@
         <h2><%= link_to 'SPECIES+', root_path %></h2>
       </div>
     </div>
+
     <% if flash[:notice] %>
-    <div class="notice">
-        <%= flash[:notice] %>
-    </div>
+      <div class="notice">
+          <%= flash[:notice] %>
+      </div>
     <% end %>
+
     <%= yield %>
-
-
+    <div class="row">
+      <footer class="large-12 colunms">
+          <div class="large-4 columns">
+            <h6>What is it?</h6>
+            <p>This project was created by <a href="https://twitter.com/bike_lover_ka/">Alicja Cyganiewicz</a> and <a href="https://twitter.com/wdalach/">Wiktoria Dalach</a> during <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code</a>.
+            </p>
+            <p>
+              <ul class="icons_list">
+                <li><a href="https://github.com/unepwcmc/SAPI-client"><img src="<%= asset_path ('iconmonstr-github-9-icon.png') %>" class="icons"></a></li>
+                <li><a href="http://dalach.blogspot.com/search/label/RGSoC"><img src="<%= asset_path ('iconmonstr-blogger-4-icon.png') %>" class="icons"></a></li>
+                <li><a href="http://teams.railsgirlssummerofcode.org/teams/7"><img src="<%= asset_path ('iconmonstr-info-5-icon.png') %>" class="icons" ></a></li>
+              </ul>
+            </p>
+          </div>
+          <div class="large-4 columns">
+            <h6>Want to see more?</h6>
+            <ul>
+              <li><a href="http://www.unep-wcmc.org/">UNEP WCMC</a></li>
+              <li><a href="http://cites-checklist.unepwcmc-004.vm.brightbox.net/">CITES checklist</a></li>
+              <li><a href="http://sapi.unepwcmc-004.vm.brightbox.net/species/">Species+ API</a></li>
+              <li><a href="http://uat.gbif.org/developer/maps">Geolocalisation data</a></li>
+            </ul>
+          </div>
+          <div class="large-4 columns">
+            <h6>How to use?</h6>
+            <p>If you don;t know how to use the data</p>
+          </div>
+      </footer>
+    </div>
     <%= javascript_include_tag "buttons" %>
     <%= javascript_include_tag "species" %>
     <%= javascript_include_tag "prism" %>

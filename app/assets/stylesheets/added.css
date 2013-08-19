@@ -60,3 +60,18 @@ fieldset{
 	list-style-type: none;
 	margin-bottom: 10px;
 }
+
+footer{
+	margin-top: 150px;
+	border-top: 1px #DCEEFC solid;
+	font-size: 12px;
+}
+
+.icons_list li{
+	display: inline;
+}
+
+.icons {
+	width:40px;
+	height: auto;
+}

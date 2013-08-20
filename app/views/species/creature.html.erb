@@ -14,7 +14,7 @@
           <% @tax.each do |level| %>
             <tr>
               <td class="large-4 columns level"> <%= level.capitalize.gsub("_", " ") %>: </td>
-              <td   class="large-8 columns">
+              <td class="large-8 columns" id="<%= level %>">
                 <% if level == "english_names" %>
                   <%= @creature[level].join(", ") %>
                 <% else %>
@@ -49,20 +49,15 @@
               </div>
             <% end %>
 
-            </div>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
-
-
-    </div>
-
-    <div class="large-6 columns">
-
-    </div>
+  <div class="row">
+    <div id="chart2"></div>
+      <%= javascript_include_tag "d3.v3.min" %>
+      <%= javascript_include_tag "tree" %>
   </div>
+
 

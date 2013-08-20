@@ -17,14 +17,12 @@ function button_click(e){
 		this.setAttribute('data-flag', "");
 		classes_chosen.splice( classes_chosen.indexOf( name ), 1 );
 		load_the_content(classes_chosen);
-		// console.log(classes_chosen);
 	}
 	else{
 		this.setAttribute('style', "background-color:#DCEEFC; border-color:#94d5f3" );
 		this.setAttribute('data-flag', "clicked");
 		classes_chosen.push(name);
 		load_the_content(classes_chosen);
-		// console.log(classes_chosen);
 	}
 
 }
@@ -33,7 +31,6 @@ function button_click(e){
 function appendix_click(e){
 	var name = this.innerHTML;
 	appendix_chosen = name;
-	console.log(appendix_chosen);
 }
 
 //Changing the section => unset the classes chosen/appendix

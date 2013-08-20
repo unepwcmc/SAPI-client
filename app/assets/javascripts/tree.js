@@ -37,7 +37,8 @@
               var temp = root;
               for(var i=0; i<levels.length; i++){
                 temp.children.forEach(function(a){
-                  if(a.name == document.getElementById(levels[i]).innerHTML.trim()){
+                  if(a.name == document.getElementById(levels[i]).innerHTML.trim()
+                      || a.name==null){
                     click(a);
                     temp = a;
                   }

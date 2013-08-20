@@ -1,3 +1,4 @@
+          var levels = ["kingdom_name", "phylum_name", "class_name", "order_name", "family_name", "genus_name", "species_name", "full_name"];
           var margin = {top: 20, right: 220, bottom: 20, left: 120},
               width = 960 - margin.right - margin.left,
               height = 800 - margin.top - margin.bottom;
@@ -18,7 +19,7 @@
             .append("g")
               .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-          d3.json("math_map_compact", function(json) {
+          d3.json("/assets/temp.json", function(json) {
                     json.x0 = 800;
                     json.y0 = 0;
                     update(root = json);
@@ -32,6 +33,17 @@
             }
 
             root.children.forEach(collapse);
+            if(window.location.pathname != '/static_pages/home'){
+              var temp = root;
+              for(var i=0; i<levels.length; i++){
+                temp.children.forEach(function(a){
+                  if(a.name == document.getElementById(levels[i]).innerHTML.trim()){
+                    click(a);
+                    temp = a;
+                  }
+                });
+              }
+            }
             update(root);
           });
 
@@ -135,3 +147,4 @@
             }
             update(d);
           }
+

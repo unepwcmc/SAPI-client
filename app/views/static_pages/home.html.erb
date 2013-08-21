@@ -50,7 +50,7 @@
 			</section>
 
 			<section>
-			    <p class="title" data-section-title><a href="#panel2">Animalia + Plantae</a></p>
+			    <p class="title" data-section-title ng-click='sectionChangeOut()'><a href="#panel2">Animalia + Plantae</a></p>
 			    <div class="content" data-section-content>
 			      	<div class="row">
 			      		<div class="large-6 columns">
@@ -80,7 +80,7 @@
 				</div>
 			</section>
 			<section>
-				<p class="title" data-section-title><a href="#panel2">Tax Tree</a></p>
+				<p class="title" data-section-title ng-click='sectionChangeOut()'><a href="#panel2">Tax Tree</a></p>
 			    <div class="content" data-section-content>
 				    <div id="chart2"></div>
 				        <%= javascript_include_tag "d3.v3.min" %>
@@ -91,7 +91,7 @@
 		</div>
 
 
-	<div class="row">
+	<div class="row" id="cites">
    		<div class="large-12 column">
    			<label>CITES appendix</label>
 			<div id="thirdStop" class="switch_species switch_species-four candy yellow">

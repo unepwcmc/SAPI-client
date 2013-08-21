@@ -45,4 +45,8 @@
     $scope.species_chosen = new Array()
     $scope.levels = new Array()
     $scope.final_chosen = new Array()
+
+  $scope.sectionChangeOut = ->
+    $scope.sectionChange()
+    document.getElementById('cites').style.display='none'
 ]

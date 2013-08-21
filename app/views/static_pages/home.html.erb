@@ -65,6 +65,18 @@
 						<div class= "row"> There are <span class="chosen_count"></span><span class="chosen_group"></span>endangered species in Poland
 						</div>
 					</div>
+
+					<div class="row">
+						<div class="large-12 columns">
+							<canvas id="animalia_bar" width="850" height="300"></canvas>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-12 columns">
+							<canvas id="plantae_bar" width="850" height="300"></canvas>
+						</div>
+					</div>
+
 				</div>
 			</section>
 			<section>
@@ -108,3 +120,5 @@
 	</div>
 </div>
 <%= javascript_include_tag "buttons" %>
+<%= javascript_include_tag "Chart" %>
+<%= javascript_include_tag "species_numbers" %>

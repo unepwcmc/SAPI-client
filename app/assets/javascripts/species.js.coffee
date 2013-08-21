@@ -19,8 +19,6 @@
   $scope.cites = "nc"
   $scope.select = ($name, $level) ->
 
-    console.log(gon.creatures)
-
     if include($scope.levels, $name) is true
       j = 0
 

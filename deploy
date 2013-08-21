@@ -1,0 +1,10 @@
+#!/usr/bin/zsh
+
+git push origin master
+git checkout -b deploy
+rake assets:precompile
+git add -f .
+git commit -m "deploy with assets"
+git push heroku deploy:master --force
+git checkout master
+git branch -D deploy

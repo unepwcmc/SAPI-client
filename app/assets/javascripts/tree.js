@@ -36,9 +36,9 @@
             if(window.location.pathname != '/static_pages/home'){
               var temp = root;
               for(var i=0; i<levels.length; i++){
+                var val = document.getElementById(levels[i]).innerHTML.trim();
                 temp.children.forEach(function(a){
-                  if(a.name == document.getElementById(levels[i]).innerHTML.trim()
-                      || a.name==null){
+                  if(a.name == val || a.name==null){
                     click(a);
                     temp = a;
                   }
@@ -87,7 +87,7 @@
 
             nodeUpdate.select("circle")
                 .attr("r", 4.5)
-                .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+                .style("fill", function(d) { return d._children ? "lightsteelblue" : "black"; });
 
             nodeUpdate.select("text")
                 .style("fill-opacity", 1);

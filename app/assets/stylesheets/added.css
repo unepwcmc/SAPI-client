@@ -75,3 +75,6 @@ footer{
 	width:40px;
 	height: auto;
 }
+.pointer {
+	cursor: pointer;
+}

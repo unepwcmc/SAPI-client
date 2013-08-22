@@ -56,13 +56,18 @@
     </div>
   </div>
   <div class="row">
-    <div id="chart2"></div>
+    <div class="large-12 columns">
+      <h3>Taxonomy tree for <%= @creature['full_name'] %></h3>
+      <div id="chart2"></div>
       <%= javascript_include_tag "d3.v3.min" %>
       <%= javascript_include_tag "tree" %>
+    </div>
   </div>
   <div class="row">
-    <div id="map" style="width: 800px; height: 500px;"></div>
-
-    <%= javascript_include_tag "maps" %>
+    <div class="large-12 columns">
+      <h3><%= @creature['full_name']%> habitat</h3>
+      <div id="map" style="width: 800px; height: 500px;"></div>
+      <%= javascript_include_tag "maps" %>
+    </div>
   </div>
 

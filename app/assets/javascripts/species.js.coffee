@@ -48,5 +48,9 @@
 
   $scope.sectionChangeOut = ->
     $scope.sectionChange()
-    document.getElementById('cites').style.display='none'
+    document.getElementById('cites').style.display= "none"
+
+  $scope.sectionChangeIn = ->
+    $scope.sectionChange()
+    document.getElementById('cites').style.display= 'block'
 ]

@@ -78,3 +78,12 @@ footer{
 .pointer {
 	cursor: pointer;
 }
+
+.small_menu {
+	font-size: 0.5em;
+	margin-left: 2%;
+}
+.small_title{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}

@@ -1,6 +1,6 @@
   <div class="row">
     <div class="large-3">
-      <span class="label"><%= @creature["full_name"] %></span>
+      <h2 class="label" id="creature"><%= link_to '+', root_path %><%= @creature["full_name"] %><a href="#taxonomy" class="small_menu">taxonomy </a><a href="#habitat" class="small_menu">habitat</a></h2>
     </div>
   </div>
 
@@ -57,7 +57,7 @@
   </div>
   <div class="row">
     <div class="large-12 columns">
-      <h3>Taxonomy tree for <%= @creature['full_name'] %></h3>
+      <h3 id="taxonomy" class="small_title" >Taxonomy tree for <%= @creature['full_name'] %><a href="#creature" class="small_menu">data</a><a href="#habitat" class="small_menu">habitat</a></h3>
       <div id="chart2"></div>
       <%= javascript_include_tag "d3.v3.min" %>
       <%= javascript_include_tag "tree" %>
@@ -65,7 +65,7 @@
   </div>
   <div class="row">
     <div class="large-12 columns">
-      <h3><%= @creature['full_name']%> habitat</h3>
+      <h3 id="habitat" class="small_title" ><%= @creature['full_name']%> habitat<a href="#creature" class="small_menu">data</a><a href="#taxonomy" class="small_menu">taxonomy</a></h3>
       <div id="map" style="width: 800px; height: 500px;"></div>
       <%= javascript_include_tag "maps" %>
     </div>

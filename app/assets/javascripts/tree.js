@@ -71,7 +71,7 @@
 
             nodeEnter.append("circle")
                 .attr("r", 1e-6)
-                .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+                .style("fill", function(d) { return d._children ? "lightsteelblue" : "steelblue"; });
 
             nodeEnter.append("text")
                 .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
@@ -87,7 +87,7 @@
 
             nodeUpdate.select("circle")
                 .attr("r", 4.5)
-                .style("fill", function(d) { return d._children ? "lightsteelblue" : "black"; });
+                .style("fill", function(d) { return d._children ? "lightsteelblue" : "steelblue"; });
 
             nodeUpdate.select("text")
                 .style("fill-opacity", 1);

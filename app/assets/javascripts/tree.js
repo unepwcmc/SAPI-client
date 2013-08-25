@@ -13,7 +13,7 @@
           var diagonal = d3.svg.diagonal()
               .projection(function(d) { return [d.y, d.x]; });
 
-          var svg = d3.select("#chart2").append("svg")
+          var svg = d3.select("svg#tree")
               .attr("width", width + margin.right + margin.left)
               .attr("height", height + margin.top + margin.bottom)
             .append("g")
@@ -73,7 +73,10 @@
                 .attr("r", 1e-6)
                 .style("fill", function(d) { return d._children ? "lightsteelblue" : "steelblue"; });
 
-            nodeEnter.append("text")
+            var link = nodeEnter.append("a")
+                          .attr('xlink:href', function(d){ return d.children || d._children ? "" : "/species/creature/"+d.name; });
+
+            link.append("text")
                 .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
                 .attr("dy", "-0.5em")
                 .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })

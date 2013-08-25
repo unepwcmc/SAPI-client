@@ -58,7 +58,9 @@
   <div class="row">
     <div class="large-12 columns">
       <h3 id="taxonomy" class="small_title" >Taxonomy tree for <%= @creature['full_name'] %><a href="#creature" class="small_menu">data</a><a href="#habitat" class="small_menu">habitat</a></h3>
-      <div id="chart2"></div>
+      <div id="chart2">
+        <svg id="tree" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
+      </div>
       <%= javascript_include_tag "d3.v3.min" %>
       <%= javascript_include_tag "tree" %>
     </div>

@@ -82,7 +82,9 @@
 			<section>
 				<p class="title" data-section-title ng-click='sectionChangeOut()'><a href="#panel2">Tax Tree</a></p>
 			    <div class="content" data-section-content>
-				    <div id="chart2"></div>
+				    <div id="chart2">
+				    	<svg id="tree" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
+				    </div>
 				        <%= javascript_include_tag "d3.v3.min" %>
     						<%= javascript_include_tag "tree" %>
 			</div>

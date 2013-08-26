@@ -1,11 +1,11 @@
 SpeciesPlus::Application.routes.draw do
+  root :to => 'static_pages#home'
+  get "species/:name" => 'species#creature'
 
-  get "species/creature" => 'species#creature'
-  get "species" => 'species#creature'
-  get "species/creature/:name" => 'species#creature'
-  root :to => redirect('/static_pages/home')
-  match '/static_pages/home', :to =>'static_pages#home', via: 'get', as: "home"
-  get "static_pages/help"
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

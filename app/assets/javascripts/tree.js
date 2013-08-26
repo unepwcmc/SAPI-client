@@ -74,7 +74,7 @@
                 .style("fill", function(d) { return d._children ? "lightsteelblue" : "steelblue"; });
 
             var link = nodeEnter.append("a")
-                          .attr('xlink:href', function(d){ return d.children || d._children ? "" : "/species/creature/"+d.name; });
+                          .attr('xlink:href', function(d){ return d.children || d._children ? "" : "/species/"+d.name; });
 
             link.append("text")
                 .attr("x", function(d) { return d.children || d._children ? -10 : 10; })

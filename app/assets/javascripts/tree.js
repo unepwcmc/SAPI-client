@@ -33,7 +33,7 @@
             }
 
             root.children.forEach(collapse);
-            if(window.location.pathname != '/static_pages/home'){
+            if(window.location.pathname != '/'){
               var temp = root;
               for(var i=0; i<levels.length; i++){
                 var val = document.getElementById(levels[i]).innerHTML.trim();

@@ -89,6 +89,22 @@
     						<%= javascript_include_tag "tree" %>
 			</div>
 			</section>
+			<section>
+				<p class="title" data-section-title ng-click='sectionChangeOut()'><a href="#panel2">Game</a></p>
+			    <div class="content" data-section-content>
+				    <div id="game" ng-controller="GameCtrl">
+				    	<h3>Match species's names with photos</h3>
+				    	<button ng-click="start()">START</button>
+				    	<div id="play_game">
+				    		<img src="">
+				    		<form>
+				    			<input type="text">
+				    			<input type="submit">
+				    		</form>
+				    	</div>
+				    </div>
+			</div>
+			</section>
 
 		</div>
 
@@ -122,5 +138,5 @@
 	</div>
 </div>
 <%= javascript_include_tag "buttons" %>
-<%= javascript_include_tag "Chart" %>
 <%= javascript_include_tag "species_numbers" %>
+<%= javascript_include_tag "game" %>

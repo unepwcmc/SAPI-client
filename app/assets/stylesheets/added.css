@@ -87,3 +87,11 @@ footer{
 	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
 }
+
+.hidden {
+	display: none;
+}
+
+.show{
+	display: block;
+}

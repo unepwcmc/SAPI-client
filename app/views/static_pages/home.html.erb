@@ -94,13 +94,16 @@
 			    <div class="content" data-section-content>
 				    <div id="game" ng-controller="GameCtrl">
 				    	<h3>Match species's names with photos</h3>
-				    	<button ng-click="start()">START</button>
-				    	<div id="play_game">
+				    	<button ng-click="start()" class="show" id="start_game_button">START</button>
+				    	<div id="play_game" class="hidden">
 				    		<img src="">
-				    		<form>
-				    			<input type="text">
-				    			<input type="submit">
+				    		<form ng-submit="check()">
+				    			<ul>
+				    				<li ng-repeat="species in three_to_play"><input type="radio" name="species" value="{{species.full_name}}" ng-model="guess.name">{{species.full_name}}</li>
+				    			</ul>
+				    			<input type="submit" value="Check!">
 				    		</form>
+
 				    	</div>
 				    </div>
 			</div>

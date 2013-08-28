@@ -97,17 +97,17 @@
 				    	<button ng-click="start()" class="show" id="start_game_button">START</button>
 				    	<div id="play_game" class="hidden">
 				    		<img id="guess_img" src="">
-				    		<form ng-submit="check()">
-				    			<ul>
-				    				<li ng-repeat="species in three_to_play" ng-model="guess"><input type="radio" name="species" value="{{species.full_name}}">{{species.full_name}}
-				    				</li>
-				    			</ul>
-				    			<span>{{guess}}</span>
-				    			<input type="hidden" name="correct_answer" ng-model="correct_answer" value="{{correct}}">
-				    			<input type="submit" value="Check!">
-				    		</form>
+
+				    		<form name="myForm" ng-submit="check()">
+				    			<input type="radio" ng-model="species" value="{{three_to_play[0]['full_name']}}"> {{three_to_play[0]['full_name']}} <br/>
+				    			<input type="radio" ng-model="species" value="{{three_to_play[1]['full_name']}}"> {{three_to_play[1]['full_name']}} <br/>
+				    			<input type="radio" ng-model="species" value="{{three_to_play[2]['full_name']}}"> {{three_to_play[2]['full_name']}} <br/>
+						     <input type="submit" value="Check!">
+
+						     </form>
 
 				    	</div>
+				    	<span id="result"></span>
 				    </div>
 			</div>
 			</section>

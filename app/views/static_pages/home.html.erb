@@ -96,11 +96,13 @@
 				    	<h3>Match species's names with photos</h3>
 				    	<button ng-click="start()" class="show" id="start_game_button">START</button>
 				    	<div id="play_game" class="hidden">
-				    		<img src="">
+				    		<img id="guess_img" src="">
 				    		<form ng-submit="check()">
 				    			<ul>
-				    				<li ng-repeat="species in three_to_play"><input type="radio" name="species" value="{{species.full_name}}" ng-model="guess.name">{{species.full_name}}</li>
+				    				<li ng-repeat="species in three_to_play"><input type="radio" name="species" value="{{species.full_name}}" ng-model="guess.name">{{species.full_name}}
+				    				</li>
 				    			</ul>
+				    			<input type="hidden" name="correct_answer" ng-model="correct_answer" value="{{correct}}">
 				    			<input type="submit" value="Check!">
 				    		</form>
 

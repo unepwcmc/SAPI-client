@@ -88,6 +88,11 @@ footer{
 	font-weight: normal;
 }
 
+.search_form{
+	position: absolute;
+	top: 35px;
+}
+
 .hidden {
 	display: none;
 }

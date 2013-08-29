@@ -72,3 +72,6 @@ gem 'node', "~> 0.0.2"
 
 #reading Data from controller in JS files
 gem 'gon'
+
+#strings similarity
+gem "levenshtein", "~> 0.2.2"

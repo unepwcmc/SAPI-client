@@ -57,7 +57,7 @@
 				    </div>
 				        <%= javascript_include_tag "d3.v3.min" %>
     						<%= javascript_include_tag "tree" %>
-			</div>
+					</div>
 			</section>
 			<section>
 				<p class="title" data-section-title ng-click='sectionChangeOut()'><a href="#panel2">Game</a></p>
@@ -112,7 +112,26 @@
 			</ul>
 		</div>
 	</div>
+	<div class="row">
+		<div class="large-12 column">
+			<ul class="species_similar species_list">
+				<% if @message.present? %>
+					<h4><%= @message %></h4>
+					<% if @species_similar.length > 0 %>
+						<% @species_similar.each do |species| %>
+							<li>
+								<a href="/species/<%= species['full_name'] %>"><%= species['full_name'] %></a> <em><%= species['english_names'][0]%></em>
+							</li>
+						<% end %>
+					<% else %>
+						<a href="/fake.html"><%= @creature %></a> <em><%= @creature %></em>
+					<% end %>
+				<% end %>
+			</ul>
+		</div>
+	</div>
 </div>
+
 <%= javascript_include_tag "buttons" %>
 <%= javascript_include_tag "species_numbers" %>
 <%= javascript_include_tag "game" %>

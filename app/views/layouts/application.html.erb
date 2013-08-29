@@ -37,16 +37,15 @@
 
   <body>
     <div class="row" >
-      <div class="large-12 columns">
+      <div class="large-9 columns">
         <h2><%= link_to 'SPECIES+', root_path %></h2>
       </div>
-    </div>
-
-    <% if flash[:notice] %>
-      <div class="notice">
-          <%= flash[:notice] %>
+      <div class="large-3 columns">
+        <%= form_tag("/search", method: "get", class: "search_form") do %>
+            <%= text_field "species", "name", "size" => 25, "placeholder" => "Type species name" %>
+        <% end %>
       </div>
-    <% end %>
+    </div>
 
     <%= yield %>
     <ol class="joyride-list" data-joyride>

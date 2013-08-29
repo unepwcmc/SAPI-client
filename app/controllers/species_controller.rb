@@ -1,8 +1,13 @@
 class SpeciesController < ApplicationController
+  require 'levenshtein'
 
 def creature
+    gon.creatures = JSON.parse(@@polish_creatures)
+    if params['name'].blank?
+       params['name'] = params['species']['name']
+    end
     @tax = ["kingdom_name", "phylum_name", "class_name", "order_name", "family_name", "genus_name", "species_name", "full_name", "english_names", "current_listing"]
-    @creatures = JSON.parse(@@polish_creatures)
+    @creatures = gon.creatures
     @creature_full = @creatures.select {|c| c["full_name"] == params["name"] }
     if @creature_full.length == 1
       @creature = @creature_full[0].select{|k,v| @tax.include? k}
@@ -15,8 +20,10 @@ def creature
         []
       end
     else
-      flash[:notice] = "We didn't find the creature"
-      redirect_to root_path
+      @creature = params["name"]
+      @message = "We didn't find #{@creature}, did you mean:"
+      @species_similar = @creatures.select {|c| Levenshtein.normalized_distance(params['name'], c['full_name']) < 0.65 }
+      render "static_pages/home"
     end
   end
 

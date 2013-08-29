@@ -100,3 +100,7 @@ footer{
 .show{
 	display: block;
 }
+
+#start_game_button{
+	margin: 15px;
+}

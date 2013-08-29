@@ -64,20 +64,23 @@
 			    <div class="content" data-section-content>
 				    <div id="game" ng-controller="GameCtrl">
 				    	<h3>Match species's names with photos</h3>
+				    	<div id="result"></div>
 				    	<button ng-click="start()" class="show" id="start_game_button">START</button>
 				    	<div id="play_game" class="hidden">
+				    		<p id="progress">{{question}}/10</p>
 				    		<img id="guess_img" src="">
 
 				    		<form name="myForm" ng-submit="check()">
-				    			<input type="radio" ng-model="species" value="{{three_to_play[0]['full_name']}}"> {{three_to_play[0]['full_name']}} <br/>
-				    			<input type="radio" ng-model="species" value="{{three_to_play[1]['full_name']}}"> {{three_to_play[1]['full_name']}} <br/>
-				    			<input type="radio" ng-model="species" value="{{three_to_play[2]['full_name']}}"> {{three_to_play[2]['full_name']}} <br/>
+				    			<ul>
+				    				<li><input type="radio" ng-model="species" value="{{three_to_play[0]['full_name']}}"> {{three_to_play[0]['full_name']}} </li>
+				    				<li><input type="radio" ng-model="species" value="{{three_to_play[1]['full_name']}}"> {{three_to_play[1]['full_name']}}</li>
+				    				<li><input type="radio" ng-model="species" value="{{three_to_play[2]['full_name']}}"> {{three_to_play[2]['full_name']}}</li>
+				    			</ul>
 						     <input type="submit" value="Check!">
 
 						     </form>
 
 				    	</div>
-				    	<span id="result"></span>
 				    </div>
 			</div>
 			</section>
@@ -131,7 +134,6 @@
 		</div>
 	</div>
 </div>
-
 <%= javascript_include_tag "buttons" %>
 <%= javascript_include_tag "species_numbers" %>
 <%= javascript_include_tag "game" %>

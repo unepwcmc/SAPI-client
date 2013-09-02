@@ -104,3 +104,21 @@ footer{
 #start_game_button{
 	margin: 15px;
 }
+
+ol.roman{
+	list-style-type:upper-roman;
+}
+
+.wrong{
+	color: red;
+}
+
+.correct{
+	font-weight: bold;
+	color: green;
+}
+
+.img_small_answer{
+	height: 250px;
+	margin: 15px;
+}

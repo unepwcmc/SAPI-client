@@ -64,8 +64,21 @@
 			    <div class="content" data-section-content>
 				    <div id="game" ng-controller="GameCtrl">
 				    	<h3>Match species's names with photos</h3>
-				    	<div id="result"></div>
 				    	<button ng-click="start()" class="show" id="start_game_button">START</button>
+				    	<div id="result" class="hidden">
+				    		<span class="level"></span>
+				    		<ol>
+				    			<li ng-repeat="question in all_questions">
+				    				<img src="{{all_questions[$index]['img']}}" class="img_small_answer">
+				    				<ul id="{{$index}}">
+				    					<li ng-repeat="answer in question">
+				    						{{answer.full_name}}
+				    					</li>
+				    				</ul>
+				    			</li>
+				    		</ol>
+				    	</div>
+
 				    	<div id="play_game" class="hidden">
 				    		<p id="progress">{{question}}/10</p>
 				    		<img id="guess_img" src="">

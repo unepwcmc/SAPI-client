@@ -4,7 +4,7 @@ class SpeciesController < ApplicationController
 def creature
     gon.creatures = JSON.parse(@@polish_creatures)
     if params['name'].blank?
-       params['name'] = params['species']['name']
+       params['name'] = params['species']['name'].slice(0,1).capitalize + params['species']['name'].slice(1..-1)
     end
     @tax = ["kingdom_name", "phylum_name", "class_name", "order_name", "family_name", "genus_name", "species_name", "full_name", "english_names", "current_listing"]
     @creatures = gon.creatures

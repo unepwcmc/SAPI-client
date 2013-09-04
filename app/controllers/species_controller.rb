@@ -21,7 +21,7 @@ def creature
       end
     else
       @creature = params["name"]
-      @message = "We didn't find #{@creature}, did you mean:"
+      @message = "We've found:"
       @species_similar = @creatures.select {|c| Levenshtein.normalized_distance(params['name'], c['full_name']) < 0.65 }
       render "static_pages/home"
     end

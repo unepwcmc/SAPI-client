@@ -4,6 +4,6 @@ class StaticPagesController < ApplicationController
     gon.creatures = JSON.parse(@@polish_creatures)
   end
 
-  def help
+  def sad_panda
   end
 end

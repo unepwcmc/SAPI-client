@@ -1,8 +1,10 @@
 SpeciesPlus::Application.routes.draw do
+
   root :to => 'static_pages#home'
   get "species/:name" => 'species#creature'
   get "search" => 'species#creature'
   get 'static_pages/sad_panda'
+  post "/update" => 'update#update'
 
 
 

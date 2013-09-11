@@ -136,7 +136,7 @@
 					<% if @species_similar.length > 0 %>
 						<% @species_similar.each do |species| %>
 							<li>
-								<a href="/species/<%= species['full_name'] %>"><%= species['full_name'] %></a> <em><%= species['english_names'][0]%></em>
+								<a href="/species/<%= species['full_name'] %>"><%= species['full_name'] %></a> <em><%= species['english_names']%></em>
 							</li>
 						<% end %>
 					<% else %>

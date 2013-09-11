@@ -44,8 +44,12 @@ class UpdateController < ApplicationController
       }
     end
 
-    File.open("app/assets/javascripts/newest.json","w") do |f|
+    File.open("app/assets/javascripts/species_list.json","w") do |f|
       f.write(all_species.to_json)
     end
+
+    tree()
+    add_gbif_images()
+
   end
 end

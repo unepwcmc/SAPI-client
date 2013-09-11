@@ -19,7 +19,7 @@
             .append("g")
               .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-          d3.json("/assets/temp.json", function(json) {
+          d3.json("/assets/species_tree.json", function(json) {
                     json.x0 = 800;
                     json.y0 = 0;
                     update(root = json);

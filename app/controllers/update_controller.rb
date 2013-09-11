@@ -43,5 +43,9 @@ class UpdateController < ApplicationController
         end
       }
     end
+
+    File.open("app/assets/javascripts/newest.json","w") do |f|
+      f.write(all_species.to_json)
+    end
   end
 end

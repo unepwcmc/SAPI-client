@@ -12,7 +12,7 @@
     i = 0
 
     while i < $species.length
-      $scope.final_chosen.push $species[i]  if reg.test($species[i]["current_listing"]) or $species[i]["current_listing"] is $cites
+      $scope.final_chosen.push $species[i]  if reg.test($species[i]["cites_listing"]) or $species[i]["cites_listing"] is $cites
       i++
   $scope.species_chosen = new Array()
   $scope.levels = new Array()

@@ -3,7 +3,7 @@ class UpdateController < ApplicationController
 
   def update
 
-    fields = ["full_name", "class_name","family_name","genus_name","id","kingdom_name","order_name","phylum_name","species_name","current_listing", "english_names"]
+    fields = ['id', "full_name", "class_name","family_name","genus_name","id","kingdom_name","order_name","phylum_name","species_name","cites_listing", "english_names"]
     all_species = Array.new
 
     url = URI.parse('http://sapi.unepwcmc-012.vm.brightbox.net/api/v1/geo_entities?designation=cites&geo_entity_types[]=country')
@@ -18,11 +18,8 @@ class UpdateController < ApplicationController
     end
 
     url = URI.parse("http://sapi.unepwcmc-012.vm.brightbox.net/api/v1/taxon_concepts?geo_entities_ids[]=#{country_id}&taxonomy=cites_eu")
-    req = Net::HTTP::Get.new(url.path)
-    res = Net::HTTP.start(url.host, url.port) {|http|
-      http.request(req)
-    }
-    dane = JSON.load(res.body)
+    req = Net::HTTP::get(url)
+    dane = JSON.load(req)
     species_ids = Array.new
     dane['taxon_concepts'].each do |species|
       species_ids << species['id']
@@ -39,8 +36,12 @@ class UpdateController < ApplicationController
       dane = JSON.load(res.body)
       dane['taxon_concept'].each {|field_name, field_value|
         all_species[index][field_name] = field_value if fields.include? field_name
+        if field_name == "common_names"
+          field_value.each do |field|
+            all_species[index]['english_names'] = field['names'] if field['lang'] == 'English'
+          end
+        end
       }
     end
-
   end
 end

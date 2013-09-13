@@ -17,7 +17,7 @@ class UpdateController < ApplicationController
       country_id = country['id'] if country['name'].eql? 'Poland'
     end
 
-    url = URI.parse("http://sapi.unepwcmc-012.vm.brightbox.net/api/v1/taxon_concepts?geo_entities_ids[]=#{country_id}&taxonomy=cites_eu")
+    url = URI.parse("http://sapi.unepwcmc-012.vm.brightbox.net/api/v1/taxon_concepts?geo_entities_ids[]=#{country_id}&taxonomy=cites_eu&page=1&per_page=200")
     req = Net::HTTP::get(url)
     dane = JSON.load(req)
     species_ids = Array.new

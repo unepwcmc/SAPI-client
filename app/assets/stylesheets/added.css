@@ -122,3 +122,31 @@ ol.roman{
 	height: 250px;
 	margin: 15px;
 }
+
+#loading_bg{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.loading_info{
+	visibility: visible;
+	display: block;
+	top: 210px;
+	left: 400px;
+	width: 410px;
+	position: absolute;
+	background: black;
+	color: white;
+	z-index: 101;
+	padding: 1.125em 1.25em 1.5em;
+}
+
+#loader{
+	vertical-align:middle;
+}

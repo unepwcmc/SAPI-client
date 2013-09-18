@@ -11,6 +11,7 @@
  *= require foundation_and_overrides
  *= require toggle-switch
  *= require_self
+ *= require jquery.ui.all
  *= require_tree .
  */
 

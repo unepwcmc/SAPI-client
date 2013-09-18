@@ -78,3 +78,6 @@ gem "levenshtein", "~> 0.2.2"
 
 #nokogiri - reading html
 gem "nokogiri", "~> 1.6.0"
+
+# Autocomplete
+gem 'jquery-ui-rails'

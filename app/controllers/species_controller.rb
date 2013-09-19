@@ -6,7 +6,7 @@ def creature
     if params['name'].blank?
        params['name'] = params['species']['name'].slice(0,1).capitalize + params['species']['name'].slice(1..-1)
     end
-    @tax = ["kingdom_name", "phylum_name", "class_name", "order_name", "family_name", "genus_name", "species_name", "full_name", "english_names", "cites_listing"]
+    @tax = ["kingdom_name", "phylum_name", "class_name", "order_name", "family_name", "genus_name", "species_name", "full_name", "english_names", "cites_listing", "polish_names"]
     @creatures = gon.creatures
     @creature_full = @creatures.select {|c| c["full_name"] == params["name"] }
     if @creature_full.length == 1

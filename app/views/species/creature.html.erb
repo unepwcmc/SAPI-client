@@ -15,7 +15,7 @@
             <tr>
               <td class="large-4 columns level"> <%= level.capitalize.gsub("_", " ") %>: </td>
               <td class="large-8 columns" id="<%= level %>">
-                  <%= @creature[level] %>
+                  <%=raw @creature[level] %>
               </td>
             </tr>
           <% end %>

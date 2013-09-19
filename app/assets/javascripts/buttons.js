@@ -33,12 +33,3 @@ for(var l=0; l<buttons_section.length; l++){
 	buttons_section[l].addEventListener("click", section_click, false);
 }
 
-$(function() {
-		var Tags = new Array();
-		$.each(gon.creatures, function (index, value){
-			Tags.push(value['full_name']);
-		});
-    $( "#species_name" ).autocomplete({
-      source: Tags
-    });
-  });

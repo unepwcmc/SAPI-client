@@ -39,9 +39,15 @@ class UpdateController < ApplicationController
         if field_name == "common_names"
           field_value.each do |field|
             all_species[index]['english_names'] = field['names'] if field['lang'] == 'English'
+            all_species[index]['polish_names'] = field['names'] if field['lang'] == 'Polish'
           end
         end
       }
+      if !all_species[index]['polish_names']
+        find_polish_name(all_species[index]['full_name'])
+        a = @polish_name
+        all_species[index]['polish_names'] = a + "<i style='font-size: 13px'> (Wikipedia)</i>"
+      end
     end
 
     File.open("app/assets/javascripts/species_list.json","w") do |f|

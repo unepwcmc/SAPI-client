@@ -1,4 +1,3 @@
-console.log("hoho");
 var cfg = new Object();
     cfg.context="/";
     cfg.currentUrl="http://uat.gbif.org/cfg";

@@ -67,4 +67,15 @@ module Parser
     end
   end
 
+  def find_polish_name(latin)
+    latin = latin.gsub(/ /, '_')
+    url = "http://pl.wikipedia.org/wiki/#{latin}"
+    begin
+      @doc = Nokogiri::HTML(open(url))
+      @polish_name = @doc.css('#firstHeading span').text
+    rescue
+      @polish_name = '-'
+    end
+  end
+
 end

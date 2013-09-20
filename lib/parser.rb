@@ -13,9 +13,13 @@ module Parser
       previous = out_hash
       order_list.each do |term|
         if animal[term].nil?
-          current = {"name" => "", "children" => []}
-          previous["children"] << current
-          previous = previous["children"].find { |kid| kid["name"] == ""}
+          if previous["children"].none? { |kid| kid["name"] == "" }
+            current = {"name" => "", "children" => []}
+            previous["children"] << current
+          else
+            current = previous["children"].find { |kid| kid["name"] == "" }
+          end
+          previous = previous["children"].find { |kid| kid["name"] == "" }
         else
           field = animal[term]
           if previous["children"].none? { |kid| kid["name"] == field }
